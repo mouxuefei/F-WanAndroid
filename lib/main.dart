@@ -3,7 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:mou/NavigationPage.dart';
 
 
-void main() => runApp(new NavigationPage());
+
+void main() {
+  runApp(new MaterialApp(
+    home: NavigationPage(),
+  ));
+}
 
 
 

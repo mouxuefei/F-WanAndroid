@@ -29,19 +29,19 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 android {
     compileSdkVersion 27
 
-    def keystorePropertiesFile = rootProject.file("key.properties")
-    def keystoreProperties = new Properties()
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+//    def keystorePropertiesFile = rootProject.file("key.properties")
+//    def keystoreProperties = new Properties()
+//    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
-    signingConfigs {
-        release {
-            keyAlias keystoreProperties['key']
-            keyPassword keystoreProperties['12345678']
-            storeFile file(keystoreProperties['C:/Users/Administrator/Desktop/project/flutter_app/android/wanandroid.jks'])
-            storePassword keystoreProperties['12345678']
-        }
-    }
-
+//    signingConfigs {
+//        release {
+//            keyAlias keystoreProperties['key']
+//            keyPassword keystoreProperties['12345678']
+//            storeFile file(keystoreProperties['C:/Users/Administrator/Desktop/project/flutter_app/android/wanandroid.jks'])
+//            storePassword keystoreProperties['12345678']
+//        }
+//    }
+//
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -65,7 +65,7 @@ android {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
     }
 }

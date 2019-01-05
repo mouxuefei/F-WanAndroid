@@ -97,8 +97,3 @@ class NavigationState extends State<NavigationPage>
   }
 }
 
-void main() {
-  runApp(new MaterialApp(
-    home: NavigationPage(),
-  ));
-}
