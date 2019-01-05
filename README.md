@@ -3,14 +3,14 @@
 学习了两周的Flutter，准备写个小项目练练手，正好洪洋的玩Android有免费的Api可以用，就写个简易版的玩Android吧。
 
 #### 项目截图
-![这里写图片描述](./images/a.png)
-![这里写图片描述](./images/b.png)
-![这里写图片描述](./images/c.png)
-![这里写图片描述](./images/d.png)
-![这里写图片描述](./images/e.png)
-![这里写图片描述](./images/f.png)
-![这里写图片描述](./images/g.png)
-![这里写图片描述](./images/h.png)
+![这里写图片描述](./images/a.jpg)
+![这里写图片描述](./images/b.jpg)
+![这里写图片描述](./images/c.jpg)
+![这里写图片描述](./images/d.jpg)
+![这里写图片描述](./images/e.jpg)
+![这里写图片描述](./images/f.jpg)
+![这里写图片描述](./images/g.jpg)
+![这里写图片描述](./images/h.jpg)
 #### 主要技术点
 * 常用widget的使用
 * 下拉刷新和上拉加载更多的使用
